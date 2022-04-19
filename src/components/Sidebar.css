@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .section {
+    border: 1px solid red;
+  }
+  #section1 {
+    background-color: darkturquoise;
+  }
+  #section2 {
+    background-color: blueviolet;
+  }
+  #section3 {
+    background-color: chocolate;
+  }
+  #section4 {
+    background-color: darkseagreen;
+  }
+  .contain {
+    display: flex;
+  }
+  .sidebar {
+    width: 20%;
+  }
+  .content {
+    width: 80%;
+    position: sticky;
+  }
+  .main{
+    display: flex;
+    justify-content: space-between;
+  }
+  .mainContent {
+    width: 60%;
+    height: 150vh;
+    margin-left: 20%;
+  }
+  .sidebar{
+    /* width: 25%;
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky; */
+    top: 86.4;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    width: 20%;
+  }

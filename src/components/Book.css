@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@300;400&display=swap');
+._book {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imageArea .info{
+    width: 90%;
+    margin: auto;
+    padding-top: 5px;
+}
+.imageArea {
+    background-color: #E3E4E1;
+}
+.image {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.title {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+.author {
+    font-size: 0.8rem;
+    color: #808080;
+}
+.authorName {
+    font-weight: 600;
+}
+.bookInfo {
+    font-family: 'Merriweather', serif;
+}
+.read {
+    margin-top: 5px;
+    background-color: #738D3D ;
+    border: none;
+    color: white;
+    font-family: 'Roboto', serif;
+    font-size: 0.9rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid #738D3D;
+}
+.learnMore {
+    margin-top: 5px;
+    float: right;
+    border: none;
+    font-family: 'Roboto', serif;
+    font-size: 0.9rem;
+    color: black;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: white;
+    border: 1px solid white;
+}
+.read:hover {
+    border: 2px solid black;
+}
+.learnMore:hover{
+    border: 1px solid black;
+}
